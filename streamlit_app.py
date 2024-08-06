@@ -12,7 +12,7 @@ with open('tokenizer.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Define the maximum length for padding
-max_length = 100  # Use the same max_length as during training
+max_length = 100  
 
 # Define a function to make predictions
 def predict_proba(texts):
